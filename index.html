@@ -43,6 +43,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#experience">Experience</a>
           </li>
+          <!--La navegación funciona perfectamente-->
         </ul>
       </div>
     </nav>
@@ -51,7 +52,8 @@
       <h2>Presentation</h2>
       <div class="row">
         <div class="col-4" id="img-personal">
-          <img src="/Entrega1HTML/img/IMG-20190602-WA0030~3.jpg" class="img-fluid max-width: 100%" height="auto"
+          <!--"height="auto"" debería estar en las reglas de css-->
+          <img src="/Entrega1HTML/img/IMG-20190602-WA0030~3.jpg" class="img-fluid max-width: 100%" 
             alt="Imagen Personal" title="Imagen Personal">
         </div>
         <div class="col-8">
@@ -141,7 +143,8 @@
         </div>
         <div class="card tarjeta-foto">
           <audio controls class="embed-responsive-item">
-            <source src="/Entrega1HTML/img/Rick Astley - Never Gonna Give You Up (Video).mp3">
+            <!--Tener más cuidado con el nombramiento de los archivos. Estos no deben tener espacios-->
+            <source src="/Entrega1HTML/img/Rick_Astley-Never_Gonna_Give_You_Up_(Video).mp3">
           </audio>
           <div class="card-body">
             <h5 class="card-title">Music</h5>
@@ -167,8 +170,17 @@
     <footer class="myfooter">
       <p>2021, Juan Camilo Higuera</p>
       <p><a href="#">Back to top</a></p>
+      <!--Me gusta este agregado de la navegación. Hace mucho más fácil volver cuando ya se ha
+        visto toda la página, especialmente porque la barra de navegación no permanece en el tope de 
+        la pantalla-->
     </footer>
   </div>
 </body>
-
+<!--La página está muy bien en general. El código está separado por secciones con Id que representan correctamente
+lo que contienen. Los elementos están bien usados. Funciona en todo tipo de pantallas, manteniendo toda 
+la información legible y ordenada. 
+Cuesta un poco distinguir cuando acaba una sección y cuando empieza otra. Es más estético por lo que no 
+me voy a poner a hacerlo para cada uno :v. Pero se sugiere para siguientes proyectos.
+Además de que las imágenes no me quisieron cargar en el live server, por lo que no sé si la corrección de
+las reglas de css funcione como debería-->
 </html>
